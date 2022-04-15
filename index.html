@@ -10,11 +10,108 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>TravelMemories</title>
   </head>
   <body>
-    <h1>TravelMemories</h1>
-
+    <header>
+      <h1>TravelMemories</h1>
+    </header>
+    <section id="photoslider">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="barca.html">
+              <img
+                src="./img/BarcaLanding.jpg"
+                class="d-block w-100"
+                alt="View of the city of barcelona"
+            /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Spain</h5>
+              <p>My shortest internatioal trip a long weekend in spain</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./croatia.html">
+              <img
+                src="./img/croatia.jpg"
+                class="d-block w-100"
+                alt="View of the port outside of dubrovnick"
+            /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Croatia</h5>
+              <p>First internatioal trip to Croatia</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="./nz.html"
+              ><img
+                src="./img/newzeland.jpg"
+                class="d-block w-100"
+                alt="Cathedral Cove New Zeland"
+            /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>New Zeland</h5>
+              <p>A trip to the northern island of New Zeland</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev custom_button_opacity"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next custom_button_opacity"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section>
+      <h2>About the site</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
+        fugit eos, rerum itaque adipisci amet fugiat esse eveniet nihil quia
+        laudantium aut assumenda aliquid commodi et, distinctio accusamus.
+        Dolore, vitae.
+      </p>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
